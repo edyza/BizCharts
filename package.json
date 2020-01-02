@@ -38,8 +38,7 @@
     "test": "npm run lint",
     "lint": "eslint src/ --ext '.js,.jsx'",
     "autofix": "eslint src --fix",
-    "bundle-analyse": "cross-env NODE_ENV=analyse webpack src/index.jsx build/BizCharts.js",
-    // "postinstall": "cd node_modules/bizcharts && npm install && npm run build"
+    "bundle-analyse": "cross-env NODE_ENV=analyse webpack src/index.jsx build/BizCharts.js"
   },
   "pre-commit": [
     "lint"
